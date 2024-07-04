@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Alignment Example</title>
+<style>
+    .container {
+        display: block;
+        height: 340px; /* Just for demonstration */
+        border: 1px solid #ccc;
+        width: 120px;
+    }
+    .item {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: #f0f0f0;
+    }
+    .item-1 {
+        align-self: flex-start;
+    }
+    .item-2 {
+        align-self: center;
+    }
+    .item-3 {
+        align-self: flex-end;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="item item-1">Item 1</div>
+    <div class="item item-2">Item 2</div>
+    <div class="item item-3">Item 3</div>
+</div>
+
+</body>
+</html>
