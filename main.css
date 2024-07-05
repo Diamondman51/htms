@@ -1,0 +1,23 @@
+hr {
+    border-top: 15px dotted green;
+    /* border-width: 10px; */
+    border-top-width: 15px;
+    width: 80px;
+    border-bottom: none;
+    border-left: none;
+}
+
+img {
+    margin-right: 300px;
+}
+
+.red_bird {
+    margin-left: 302px;
+}
+
+table {
+    align-items: ;
+    align-self: start;
+    align-content: ;
+    align-tracks: ;
+}
