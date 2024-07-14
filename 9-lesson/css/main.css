@@ -2,7 +2,11 @@
   width: 1024px;
   min-height: 200px;
   /* overflow: hidden; */
-  margin: 0 auto;
+  margin: 60px auto;
+  background-color: rgba(253, 253, 253, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(77, 169, 172), -10px -10px 20px rgb(24, 86, 201);
 }
 
 body {
@@ -40,28 +44,31 @@ main {
 
 .bottom {
   width: auto;
+  padding: 10px 0 10px;
   min-height: 200px;
-  background-color: rgb(2, 44, 2);
+  /* background-color: rgb(255, 0, 0); */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.rounded {
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px;
 }
 
 .rasm1 {
   height: 200px;
   width: 30%;
-  background-color: aqua;
 }
 
 .rasm2 {
   height: 200px;
   width: 30%;
-  background-color: antiquewhite;
 }
 
 .rasm3 {
   height: 200px;
   width: 30%;
-  background-color: aquamarine;
 }
 
 h1,
@@ -74,7 +81,7 @@ h3 {
 
 .main_left {
   /* background-color: yellow; */
-  flex: 3;
+  flex: 2;
 }
 
 .main_right {
@@ -82,7 +89,7 @@ h3 {
   flex: 1;
 }
 
-.lion {
-  width: 30px;
-  /* background-color: rgba(red, green, blue, alpha); */
+.mecha {
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px;
 }
